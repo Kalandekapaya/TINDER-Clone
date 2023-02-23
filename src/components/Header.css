@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #f9f9f9;
+    border-bottom: 1px solid gray;
 }
 
 .header__image {
@@ -11,6 +11,7 @@
 }
 
 .headerIcons {
+    z-index: 999;
     padding: 20px;
     cursor: pointer;
 }

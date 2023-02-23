@@ -1,8 +1,13 @@
 .swipe__Button {
-    position: fixed;
+    position: absolute;
+    top: 90%;
     bottom: 10vh;
     display: flex;
-    width: 100%;
+    justify-content: center;
+    align-items: center ;
+    width: 490px;
+    left: 50%;
+    transform: translateX(-50%);
     justify-content: space-evenly;
     cursor: pointer;
 }
@@ -13,22 +18,22 @@
 }
 
 .swipeButton__repeat {
-    padding: 3vw !important;
+    padding: 2vw !important;
     color: #f5b748 !important;
 }
 .swipeButton__left {
-    padding: 3vw !important;
+    padding: 2vw !important;
     color: #ec5e6f !important;
 }
 .swipeButton__star {
-    padding: 3vw !important;
+    padding: 2vw !important;
     color: #62b4f9 !important;
 }
 .swipeButton__right {
-    padding: 3vw !important;
+    padding: 2vw !important;
     color: #76e2b3 !important;
 }
 .swipeButton__flashOn {
-    padding: 3vw !important;
+    padding: 2vw !important;
     color: #915dd1 !important;
 }

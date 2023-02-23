@@ -1,0 +1,37 @@
+{
+    "root": true,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "jquery": true
+    },
+    "rules": {
+      "quotes": 0,
+      "no-trailing-spaces": 0,
+      "eol-last": 0,
+      "no-unused-vars": 0,
+      "no-underscore-dangle": 0,
+      "no-alert": 0,
+      "no-lone-blocks": 0
+    },
+    "globals": {
+      "jQuery": true,
+      "$": true
+    },
+    {
+      "extends": "airbnb",
+      "parser": "babel-eslint", // This line is required to fix "unexpected token" errors
+      "rules": {
+          "indent": ["warn", 4],
+          "react/jsx-indent": ["warn", 4, { "checkAttributes": true}],
+          "react/react-in-jsx-scope": "off",
+          "react/destructuring-assignment": "off",
+          "no-nested-ternary": "warn",
+          "react/prop-types": "warn"
+      }
+  }
+  
+  }

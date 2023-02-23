@@ -1,10 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .card {
     position: relative;
-    width: 600px;
-    padding: 20px;
+    width: 500px;
+    padding: 2px 6px 0px 2px;
     max-width: 85vw;
-    height: 50vh;
-    border-radius: 20px;
+    height: 70vh;
+    border-radius: 5px;
     background-size: cover;
     background-position: center;
     box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
@@ -19,7 +23,11 @@
 .card__container {
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 1vh;
+}
+.evenly {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .swipe {
